@@ -36,5 +36,9 @@ if __name__ == "__main__":
     totp_code = generate_totp(base64.b32encode(pass_hash.encode()))
 
     #print generated code
-    print(f"Validate yourself with : {totp_code[:3]}")
-    print(f"Code of other person is: {totp_code[3:]}")
+    if number == "1":
+        print(f"Validate yourself with : {totp_code[:3]}")
+        print(f"Code of other person is: {totp_code[3:]}")
+    if number == "2":
+        print(f"Code of other person is: {totp_code[3:]}")
+        print(f"Validate yourself with : {totp_code[:3]}")
