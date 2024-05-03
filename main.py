@@ -40,5 +40,5 @@ if __name__ == "__main__":
         print(f"Validate yourself with : {totp_code[:3]}")
         print(f"Code of other person is: {totp_code[3:]}")
     if number == "2":
-        print(f"Code of other person is: {totp_code[3:]}")
-        print(f"Validate yourself with : {totp_code[:3]}")
+        print(f"Code of other person is: {totp_code[:3]}")
+        print(f"Validate yourself with : {totp_code[3:]}")
